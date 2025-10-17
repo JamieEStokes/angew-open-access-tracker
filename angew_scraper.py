@@ -5,7 +5,7 @@ import os
 
 # --- Configuration ---
 JOURNAL = "Angewandte Chemie International Edition"
-QUERY = "organic chemistry"
+QUERY = ""
 ROWS = 50  # number of results to fetch each run
 OUTPUT_FILE = "angew_open_access_papers.csv"
 
@@ -79,3 +79,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
